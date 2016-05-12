@@ -1,0 +1,109 @@
+/*-----------------------------------header-------------------------*/
+header{
+    background-color: #9900CC;
+	padding: 5px;
+	text-align: center;
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	width: 100%;
+	top:0;
+}
+#Logo_img{
+	 width: 3%;
+	 margin: 10px;
+}
+.Serch_block{
+	padding: 5px;
+	display: inline-block;
+	margin: 5px;
+
+}
+.Logo_block{
+	padding: 5%;
+	display: inline-block;
+}
+/*----------------------------------Footer-------------------------*/
+#main_footer{
+	background-color: lightblue;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	
+}
+.SocialNetwork_block{
+	text-align: right;
+	padding: 10px;
+}
+.Autor_block{
+	padding: 10px;
+	display: inline-block;
+	position: fixed;
+}
+/*-----------------------------------Body-------------------------*/
+
+#My_body{
+	position: absolute;
+    top: 150px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.LlistaPopulars_block{
+/*Aquesta llist la treiem per a pantalles petites???*/
+	background-color: red;
+	margin: auto;
+    width: 75%;
+	height: 200px;
+}
+	/*---------Per la sliderbarr----------*/
+	.lt-ie8 .elastislide-list {
+	display: none;
+	}
+	.elastislide-carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.elastislide-carousel ul {
+	position: relative;
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	transform: translateX(0px);
+}
+.elastislide-carousel ul li {
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+}
+.elastislide-carousel ul li a {
+	display: inline-block;
+	width: 100%;
+}
+
+.elastislide-carousel ul li a img {
+	display: block;
+	border: 2px solid white;
+	max-width: 100%;
+}
+.LlitaBuscats_block{
+	background-color: yellow;
+	margin: auto;
+	margin-top: 3%;
+	
+	width: 50%;
+}
+.Bucat_element{
+
+}
+.Reproductor_block{
+	background-color: green;
+	height: 50px;
+}	
+	
